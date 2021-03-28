@@ -13,4 +13,15 @@ public class AccountResponse {
 	@JsonProperty(value = "name")
 	private String name;
 	
+	@JsonProperty(value = "documentNumber")
+	private Integer documentNumber;
+	
+	@JsonProperty(value = "totalCreditLimit")
+	private Float totalCreditLimit;
+	
+	@JsonProperty(value = "availableCreditLimit")
+	private Float availableCreditLimit;
+	
 }
+
+
